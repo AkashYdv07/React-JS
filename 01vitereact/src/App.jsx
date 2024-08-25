@@ -1,7 +1,12 @@
-
+import Chai from "./chai"
 function App() {
+const username =  "chai aur code";
+
   return (
-    <h1>Akash</h1>
+    <>
+    <Chai></Chai>
+    <h1>Chai aur react curly brackets means evaluated expressions| {username}</h1>
+    </>
   )
 }
 
